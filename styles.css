@@ -88,10 +88,58 @@ a {
     font-style: italic;
 }
 
-.nav-links a {
+.nav-links a,
+.hero p {
     font-size: 18px;
     color: #E5E7EB;
 }
 .nav-right, .nav-left {
     align-items: center;
+}
+
+.hero {
+    background-color: #1F2937;
+    display: flex;
+    padding: 90px 250px;
+    align-items: center;
+    gap: 50px;
+}
+
+.hero-image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero-left {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+    margin-bottom: 0px;
+}
+
+.hero img {
+    width: 500px;
+}
+
+button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-size: 14px;
+    font-weight: 700;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 12px;
+}
+
+.hero p a {
+    font-size: 18px;
+    color: #F9FAF8;
+    font-style: italic;
 }
