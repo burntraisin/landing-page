@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 /* cyrillic-ext */
 @font-face {
     font-family: 'Roboto';
@@ -58,7 +60,7 @@
 /* The above enables Roboto to load, from Google Fonts */
 
 body {
-    font-family: "Roboto", serif;
+    font-family: 'Roboto', serif;
     margin: 0;
 }
 
@@ -150,6 +152,7 @@ button {
     flex-direction: row;
     gap: 70px;
     justify-content: center;
+    padding-bottom: 142px;
 }
 
 .product {
@@ -191,4 +194,21 @@ h2 {
 
 .product-caption {
     font-size: 15px;
+}
+
+.about-us {
+    background-color: #E5E7EB;
+    padding: 90px 250px;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.quote-author {
+    font-weight: 800;
+    text-align: right;
+    margin-right: 30px;
 }
