@@ -142,4 +142,53 @@ button {
     font-size: 18px;
     color: #F9FAF8;
     font-style: italic;
+    text-decoration: underline;
+}
+
+.products {
+    display: flex;
+    flex-direction: row;
+    gap: 70px;
+    justify-content: center;
+}
+
+.product {
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    text-align: center;
+    padding: 50px 250px;
+}
+
+.product img {
+    object-fit: cover;
+    height: 200px;
+    width: 200px;
+    border: 5px solid #3882F6;
+    border-radius: 12px;
+}
+
+.products .product a {
+    text-decoration: underline;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.products .product p {
+    text-align: center;
+    max-width: 200px;
+    align-self: center;
+}
+
+.product-description {
+    margin-top: -5px;
+}
+
+.product-caption {
+    font-size: 15px;
 }
