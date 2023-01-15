@@ -180,3 +180,14 @@ h3 {
 .contact-button {
     border: 2px solid white;
 }
+
+.footer {
+    background-color: #1F2937;
+    padding: 30px;
+    text-align: center;
+    color: white;
+}
+
+.footer a {
+    color: white;
+}
